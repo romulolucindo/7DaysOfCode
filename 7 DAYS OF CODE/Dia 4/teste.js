@@ -1,5 +1,5 @@
 let limite = 10;
-let numeroAleatorio = Math.floor((Math.random() * limite) + 1);
+let numeroAleatorio = Math.floor(Math.random() * (limite + 1));
 let chute;
 let tentativa = 3;
 console.log(numeroAleatorio);
