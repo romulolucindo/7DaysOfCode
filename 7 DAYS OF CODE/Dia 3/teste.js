@@ -47,3 +47,19 @@ if (especialista == 1) {
   alert("Que legal! Um desenvolvedor Fullstack domina tanto o Back-End quanto o Front-End, podendo construir aplicações completas do zero. Esse é um caminho versátil e muito valorizado no mercado!");
 } else { alert("Digite uma opção valida!") }
 
+
+let pergunta = true;
+
+while (pergunta) {
+  alert("Você quer aprender outra tecnologia além da nossa grade curricular?");
+  let resposta = prompt("Digite 1 para sim e 2 para não");
+
+  if (resposta == "1") {
+    prompt("Qual tecnologia que você gostaria de aprender?");
+  } else if (resposta == "2") {
+    alert("Não?, Bons estudos então!!");
+    pergunta = false;
+  } else {
+    alert("Digite um valor valido entre 1 e 2 pf!!");
+  }
+} 
